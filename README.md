@@ -37,53 +37,44 @@ Existem diversas aplicações práticas do sistema de recomendação de livros, 
 
 Com base nas escolhas de outras pessoas que leram o mesmo livro, o sistema de recomendação pode prever se um usuário vai gostar ou não de um determinado livro. Para isso, o sistema de recomendação pode usar um modelo de aprendizado de máquina que aprenda a partir dos dados históricos dos usuários e gere previsões sobre os livros que possam ser do interesse deles.
 
-## reflexões
-<div> 
-<li> Se você receber uma recomendação certeira, a chance de você comprar o livro é muito maior. Por isso, é importante que o sistema de recomendação seja preciso e confiável.
-<li>Se mais pessoas comprarem, maior será o fafturamento da empresa?
-<li> O sistema de recomendação pode ajudar a melhorar a experiência do usuário em uma loja online de livros, por exemplo, aumentando as chances de uma compra ser realizada. Quando os usuários se sentem bem atendidos por um sistema de recomendação que apresenta livros de acordo com suas preferências, eles podem se sentir mais inclinados a explorar a loja e a fazer compras adicionais.
-</div>
+## Reflexões
 
-### Dataset utilizado
+- Se você receber uma recomendação certeira, a chance de você comprar o livro é muito maior. Por isso, é importante que o sistema de recomendação seja preciso e confiável.
+- Se mais pessoas comprarem, maior será o fafturamento da empresa?
+-  O sistema de recomendação pode ajudar a melhorar a experiência do usuário em uma loja online de livros, por exemplo, aumentando as chances de uma compra ser realizada. - - Quando os usuários se sentem bem atendidos por um sistema de recomendação que apresenta livros de acordo com suas preferências, eles podem se sentir mais inclinados a explorar a loja e a fazer compras adicionais.
+
+## Dataset utilizado
 
 O dataset Book Recommender System foi criado por Ahmadullah Siddiqui e está disponível no Kaggle. O dataset contém dados de 271370 livros e 1149779 avaliações de usuários e mais de 240000 usuários. Os dados foram coletados do Goodreads e do Amazon e estão disponíveis no Kaggle.
 
-### Predições Realizadas:
-<div> 
-	<li> Algoritmo KNN
-</div>	
+## Predições Realizadas:
+- Algoritmo KNN
 
 ![image](https://github.com/gabri190/Recommended-books-system/assets/72319195/ad8b07c1-c90f-482f-b2fb-c325c9c39df9)
 
-<div> 
-	<li> Algoritmo KDTree
-</div>	
+- Algoritmo KDTree
 
 ![image](https://github.com/gabri190/Recommended-books-system/assets/72319195/7c5b9361-a5e4-4b5a-ad8f-89f05c9d073c)
 
 Essas imagens determinam também a distância média para os vizinhos mais próximos indicando o quão semelhante é o livro recomendado em relação ao livro avaliado pelo usuário.
 
-### Análise de Resultados
-<div> 
-	<li> silhouette_score
-</div>	
-
-![image](https://github.com/gabri190/Recommended-books-system/assets/72319195/dde10693-f5a6-4841-a43d-56e94288b41d)
+## Análise de Resultados
+- silhouette_score
 	
-<div> 
-	<li> calinski_harabasz_score
-</div>	
+![image](https://github.com/gabri190/Recommended-books-system/assets/72319195/dde10693-f5a6-4841-a43d-56e94288b41d)
+
+- calinski_harabasz_score
 
 ![image](https://github.com/gabri190/Recommended-books-system/assets/72319195/c1eddc88-8cc1-47e3-97d6-bbf4d0f387ab)
 
-### Conclusão
+## Conclusão
 Em conclusão, o projeto de sistemas de recomendação utilizando machine learning é extremamente útil em diversos setores, desde o comércio eletrônico até a indústria do entretenimento. Utilizando algoritmos avançados de aprendizado de máquina, é possível oferecer aos usuários recomendações personalizadas e relevantes, aumentando a satisfação do usuário e a fidelidade à plataforma.
 
 Ao longo deste projeto, pudemos explorar diferentes técnicas de machine learning, desde algoritmos simples de filtragem colaborativa até modelos de deep learning mais complexos, como redes neurais. Além disso, foram discutidos os desafios enfrentados na construção de sistemas de recomendação, como o problema do "cold start" e a necessidade de dados de alta qualidade.
 
 No final, foi possível construir um sistema de recomendação eficiente e preciso, capaz de sugerir itens relevantes aos usuários com base em suas preferências e histórico de interações. Com a crescente demanda por soluções de recomendação personalizadas, acreditamos que esse projeto tem grande potencial para ajudar empresas a melhorar a experiência do usuário e aumentar o engajamento em suas plataformas.
 
-### Proposta de Melhoria
+## Proposta de Melhoria
 <div>
 <li> Avaliar o desempenho do modelo em conjuntos de dados maiores e mais diversificados.
 <li> Investigar abordagens de aprendizado federado que permitam treinar o modelo em dados distribuídos em vários locais sem a necessidade de compartilhar dados.
@@ -91,7 +82,7 @@ No final, foi possível construir um sistema de recomendação eficiente e preci
 <li> Incorporar feedback explícito e implícito dos usuários para melhorar a precisão e a relevância das recomendações.
 </div>
 
-### Próximos passos
+## Próximos passos
 
 Embora o modelo de sistemas de recomendação desenvolvido neste projeto tenha apresentado resultados promissores, sempre há espaço para melhorias e aprimoramentos. Aqui estão algumas sugestões de melhorias que poderiam ser exploradas:
 <div>
