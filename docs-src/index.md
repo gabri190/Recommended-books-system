@@ -1,7 +1,5 @@
 # Sistema de Recomendação de Livros
 
-<iframe width="630" height="450" src="https://youtu.be/xY-m3hMb6tg" title="Sistema de Recomendação" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
 ## Introdução
 Sistemas de recomendação são ferramentas que ajudam as pessoas a encontrar itens que possam ser do seu interesse, com base em suas preferências e histórico de comportamento. Esses sistemas são usados em diversos contextos, desde lojas online até serviços de streaming de música e vídeo. Um exemplo comum é o sistema de recomendação de livros, que sugere títulos com base em livros que uma pessoa já leu e gostou. Por exemplo, se uma pessoa leu e gostou de "O Hobbit", o sistema pode recomendar outros livros de fantasia, como "As Crônicas de Nárnia" ou "O Senhor dos Anéis". Esse tipo de sistema é muito útil para ajudar as pessoas a descobrir novos livros que possam ser interessantes para elas, especialmente quando há muitas opções disponíveis.
 
